@@ -1,0 +1,32 @@
+name: New Skill Request / 新技能请求
+description: 提议开发一个新的自动化技能
+title: "[Skill] "
+labels: ["new-skill"]
+body:
+  - type: textarea
+    id: skill_name
+    attributes:
+      label: 技能名称和触发关键词
+      description: 建议的 Skill 名称和用户可能使用的触发词
+      placeholder: |
+        名称: behavior-chart-generator
+        触发词: "生成行为图表"、"画进步曲线"
+    validations:
+      required: true
+  - type: textarea
+    id: input_output
+    attributes:
+      label: 输入/输出描述
+      description: 这个 Skill 需要什么输入？产出什么文件？
+    validations:
+      required: true
+  - type: textarea
+    id: related_skills
+    attributes:
+      label: 关联的现有 Skill
+      description: 与哪些已有 Skill 有上下游关系？
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 临床依据
+      description: 为什么需要这个技能？有什么循证支持？

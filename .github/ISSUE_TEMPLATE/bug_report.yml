@@ -1,0 +1,69 @@
+name: Bug Report / 问题报告
+description: 报告一个技能执行错误或系统问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: 相关技能 (Skill)
+      description: 哪个 Skill 出了问题？
+      options:
+        - privacy-filter
+        - intake-interview
+        - profile-builder
+        - assessment-logger
+        - fba-analyzer
+        - reinforcer-tracker
+        - plan-generator
+        - program-slicer
+        - curriculum-updater
+        - session-reviewer
+        - staff-supervision
+        - teacher-guide
+        - parent-update
+        - clinical-reflection
+        - milestone-report
+        - transfer-protocol
+        - staff-onboarding
+        - org-manager
+        - staff-evaluation
+        - supervisor-sync
+        - daily-digest
+        - curriculum-builder
+        - lesson-planner
+        - group-tracker
+        - case-conference
+        - quick-summary
+        - data-trend
+        - aba-fusion-compare
+        - skill-creator
+        - _config.md / _router.md
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 清晰描述你遇到的问题
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你期望发生什么？
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么？
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: AI 客户端名称和版本、操作系统
+      placeholder: |
+        - AI 客户端: Claude Code v1.x
+        - OS: macOS 14 / Windows 11
