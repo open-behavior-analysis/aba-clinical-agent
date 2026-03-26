@@ -250,7 +250,11 @@ Especially welcome:
 
 ## License
 
+Copyright (c) 2026 Jiamei Zhang ([Jiamei-Zhang-BCBA](https://github.com/Jiamei-Zhang-BCBA))
+
 This project is licensed under [AGPL-3.0](LICENSE). You may freely use and modify it, but derivative works or SaaS offerings based on this project must be open-sourced under the same license.
+
+All contributions are subject to our [Contributor License Agreement (CLA)](CLA.md).
 
 ---
 

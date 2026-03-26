@@ -29,12 +29,23 @@ See the [Skill Development Guide](docs/skill-development.md) for details.
 - Source literature must be cited
 - Frontmatter must include `type` and `tags`
 
+## Contributor License Agreement (CLA)
+
+All contributors must agree to our [CLA](CLA.md) before their first PR can be merged. By submitting a pull request, you agree that:
+
+- You grant the maintainer a license to use your contribution under any license (including commercial)
+- You retain your copyright
+- Your contribution contains no real client data
+
+First-time contributors will be prompted to sign via the CLA Assistant bot.
+
 ## Submission Process
 
 1. Fork this repository
 2. Create a feature branch: `feat/skill-xxx` or `docs/xxx`
 3. Submit a PR describing changes and clinical rationale
-4. Await review (technical + clinical dual review)
+4. Sign the CLA (first-time only, via bot prompt)
+5. Await review (technical + clinical dual review)
 
 ## Privacy Red Line
 

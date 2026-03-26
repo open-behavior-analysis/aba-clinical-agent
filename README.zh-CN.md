@@ -233,7 +233,11 @@ Obsidian-Vault/01-Clients/Client-Demo-小星/
 
 ## 许可证
 
+Copyright (c) 2026 Jiamei Zhang ([Jiamei-Zhang-BCBA](https://github.com/Jiamei-Zhang-BCBA))
+
 本项目采用 [AGPL-3.0](LICENSE) 许可证。你可以自由使用和修改，但基于本项目的修改版本或 SaaS 服务必须以相同许可证开源。
+
+所有贡献均需签署 [贡献者许可协议 (CLA)](CLA.md)。
 
 ---
 
